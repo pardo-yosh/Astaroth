@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aetheris | Home</title>
+    <link rel="icon" href="/assets/img/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+  </head>
+  <head>
+    <base href="/" />
+    <!-- Todas las rutas serán relativas a la raíz del dominio -->
+  </head>
+  <body>
+    <!-- =============== HEADER =============== -->
+    <div id="header-placeholder"></div>
+
+    <!-- =============== SIDEBAR =============== -->
+    <div id="sidebar-placeholder"></div>
+
+    <!-- =============== MAIN =============== -->
+    <main class="main container" id="main">
+      <div class="dashboard">
+        <h1 class="dashboard__title">Bienvenido a Aetheris</h1>
+        <p class="dashboard__subtitle">
+          Selecciona uno de los cursos para explorar sus recursos:
+        </p>
+
+        <section class="course-grid">
+          <!--=============== AutomaB ===============-->
+          <!--=======================================-->
+          <div class="course-card" data-course="automab">
+            <i class="ri-robot-2-fill course-icon"></i>
+            <h2>Automatización B</h2>
+            <p>Explora los temas y recursos relacionados.</p>
+            <button
+              class="dropdown-btn"
+              aria-expanded="false"
+              aria-controls="automab-menu"
+            >
+              Ver Temas
+            </button>
+            <ul class="dropdown-content" id="automab-menu">
+              <li>
+                <a href="/content/cursos/automatizacion/tests/tema6.html"
+                  >Tema 6: MES-PSC</a
+                >
+              </li>
+              <li>
+                <a href="/content/cursos/automatizacion/tests/tema7.html"
+                  >Tema 7: Inteligencia artificial (IA) y aprendizaje automático
+                  en automatización</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--=============== ControlB===============-->
+          <!--=======================================-->
+          <div class="course-card" data-course="controlb">
+            <i class="ri-blaze-fill course-icon"></i>
+            <h2>Control B</h2>
+            <p>Accede a los contenidos y herramientas del curso.</p>
+            <button
+              class="dropdown-btn"
+              aria-expanded="false"
+              aria-controls="controlb-menu"
+            >
+              Ver Temas
+            </button>
+            <ul class="dropdown-content" id="controlb-menu">
+              <li>
+                <a href="/content/cursos/control/tests/clase8.html"
+                  >Clase 8: Análisis de estabilidad, controlabilidad, y
+                  observabilidad</a
+                >
+              </li>
+              <li>
+                <a href="/content/cursos/control/tests/clase10.html"
+                  >Clase 10: Control por realimentación de estados y estimadores
+                  de estado (Parte I)</a
+                >
+              </li>
+              <li>
+                <a href="/content/cursos/control/tests/clase11.html"
+                  >Clase 11: Control por realimentación de estados y estimadores
+                  de estado (Parte II)</a
+                >
+              </li>
+              <li>
+                <a href="/content/cursos/control/tests/clase12.html"
+                  >Clase 12: Control y estimación óptima</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--=============== IngSost ===============-->
+          <!--=======================================-->
+          <div class="course-card" data-course="ingsos">
+            <i class="ri-tree-fill course-icon"></i>
+            <h2>Ingeniería Sostenible</h2>
+            <p>Contenido sobre desarrollo sostenible e ingeniería verde.</p>
+            <button
+              class="dropdown-btn"
+              aria-expanded="false"
+              aria-controls="ingsos-menu"
+            >
+              Ver Temas
+            </button>
+            <ul class="dropdown-content" id="ingsos-menu">
+              <li><a href="ingsos/tema1.html">Tema 1</a></li>
+              <li><a href="ingsos/tema2.html">Tema 2</a></li>
+              <li>
+                <a href="/content/cursos/sostenible/tests/control2.html"
+                  >Control de lectura 2</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--================= PSID ================-->
+          <!--=======================================-->
+          <div class="course-card" data-course="psid">
+            <i class="ri-base-station-fill course-icon"></i>
+            <h2>PSID</h2>
+            <p>Procesamiento de señales e imágenes digitales.</p>
+            <button
+              class="dropdown-btn"
+              aria-expanded="false"
+              aria-controls="psid-menu"
+            >
+              Ver Temas
+            </button>
+            <ul class="dropdown-content" id="psid-menu">
+              <li>
+                <a href="/content/cursos/procesamiento/tests/clase8.html"
+                  >Clase 8: Introducción al Procesamiento Digital de Imágenes</a
+                >
+              </li>
+              <li>
+                <a href="/content/cursos/procesamiento/tests/clase9.html"
+                  >Clase 9: Mejora de Imágenes en el Dominio Espacial</a
+                >
+              </li>
+              <li>
+                <a href="/content/cursos/procesamiento/tests/clase10.html"
+                  >Clase 10: Transformada de Fourier 2D</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--=============== TemasD ================-->
+          <!--=======================================-->
+          <div class="course-card" data-course="temasd">
+            <i class="ri-cloud-fill course-icon"></i>
+            <h2>Temas D</h2>
+            <p>Explora los diversos temas de ingeniería mecatrónica.</p>
+            <button
+              class="dropdown-btn"
+              aria-expanded="false"
+              aria-controls="temasd-menu"
+            >
+              Ver Temas
+            </button>
+            <ul class="dropdown-content" id="temasd-menu">
+              <li><a href="temasd/tema1.html">Tema 1</a></li>
+              <li><a href="temasd/tema2.html">Tema 2</a></li>
+              <li><a href="temasd/tema3.html">Tema 3</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- =============== SCRIPTS =============== -->
+    <script type="module" src="assets/js/main.js"></script>
+    <script src="assets/js/core/card.js"></script>
+  </body>
+</html>
