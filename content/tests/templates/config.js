@@ -2,22 +2,22 @@
 // config.js
 export const QUIZ_PATHS = {
   automatizacion: {
-    tema6: "/content/tests/questions/automatizacion/tema6.json",
-    tema7: "/content/tests/questions/automatizacion/tema7.json",
+    tema6: "/Astaroth/content/tests/questions/automatizacion/tema6.json",
+    tema7: "/Astaroth/content/tests/questions/automatizacion/tema7.json",
   },
   control: {
-    clase8: "/content/tests/questions/control/clase8.json",
-    clase10: "/content/tests/questions/control/clase10.json",
-    clase11: "/content/tests/questions/control/clase11.json",
-    clase12: "/content/tests/questions/control/clase12.json",
+    clase8: "/Astaroth/content/tests/questions/control/clase8.json",
+    clase10: "/Astaroth/content/tests/questions/control/clase10.json",
+    clase11: "/Astaroth/content/tests/questions/control/clase11.json",
+    clase12: "/Astaroth/content/tests/questions/control/clase12.json",
   },
   procesamiento: {
-    clase8: "/content/tests/questions/procesamiento/clase8.json",
-    clase9: "/content/tests/questions/procesamiento/clase9.json",
-    clase10: "/content/tests/questions/procesamiento/clase10.json",
+    clase8: "/Astaroth/content/tests/questions/procesamiento/clase8.json",
+    clase9: "/Astaroth/content/tests/questions/procesamiento/clase9.json",
+    clase10: "/Astaroth/content/tests/questions/procesamiento/clase10.json",
   },
   sostenible: {
-    control2: "/content/tests/questions/sostenible/control2.json",
+    control2: "/Astaroth/content/tests/questions/sostenible/control2.json",
   },
 };
 
