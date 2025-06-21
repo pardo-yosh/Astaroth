@@ -1,5 +1,5 @@
 // ================ Importamos QUIZ_PATHS desde config.js ================ //
-import { getQuizPath } from "/content/tests/templates/config.js";
+import { getQuizPath } from "/Astaroth/content/tests/templates/config.js";
 
 export function initQuiz(quizKey) {
   const jsonPath = getQuizPath(quizKey);
