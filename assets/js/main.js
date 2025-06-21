@@ -1,4 +1,4 @@
-import { loadComponent } from "/assets/js/components/initComponents.js";
+import { loadComponent } from "/Astaroth/assets/js/components/initComponents.js";
 import { setupSidebar, setupDarkMode } from "/assets/js/core/visual.js";
 
 async function initializeApp() {
