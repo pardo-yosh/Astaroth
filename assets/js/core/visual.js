@@ -1,5 +1,9 @@
 // assets/js/core/visual.js
-import { getState, updateState, saveState } from "/assets/js/core/state.js";
+import {
+  getState,
+  updateState,
+  saveState,
+} from "/Astaroth/assets/js/core/state.js";
 
 /*=============== SIDEBAR ===============*/
 export function setupSidebar() {
