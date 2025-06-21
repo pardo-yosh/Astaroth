@@ -1,4 +1,4 @@
-import { loadComponent } from "/assets/js/components/initComponents.js";
+import { loadComponent } from "/Astaroth/assets/js/components/initComponents.js";
 
 export async function initSidebar() {
   await loadComponent("sidebar", "sidebar-placeholder");
