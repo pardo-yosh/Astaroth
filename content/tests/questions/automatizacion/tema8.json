@@ -1,0 +1,323 @@
+[
+  {
+    "question": "¿Qué es la Industria 4.0?",
+    "options": [
+      "Un sistema agrícola avanzado",
+      "Una revolución digital en la industria",
+      "Un modelo financiero moderno",
+      "Un tipo de comercio electrónico"
+    ],
+    "answer": "Una revolución digital en la industria",
+    "explanation": "La Industria 4.0 se refiere a la transformación digital de las fábricas y procesos industriales mediante tecnologías avanzadas."
+  },
+  {
+    "question": "¿Quién acuñó el término Industria 4.0?",
+    "options": ["Klaus Schwab", "Bill Gates", "Steve Jobs", "Nikola Tesla"],
+    "answer": "Klaus Schwab",
+    "explanation": "Klaus Schwab describió la Industria 4.0 como un entorno global flexible que integra sistemas físicos y virtuales."
+  },
+  {
+    "question": "¿Cuál es una característica fundamental de la Industria 4.0?",
+    "options": [
+      "Centralización de decisiones",
+      "Interoperabilidad",
+      "Menor automatización",
+      "Uso exclusivo de mano de obra humana"
+    ],
+    "answer": "Interoperabilidad",
+    "explanation": "La interoperabilidad permite que máquinas, sistemas y personas se comuniquen y trabajen juntos sin interrupciones."
+  },
+  {
+    "question": "¿Cuál fue el origen de la primera revolución industrial?",
+    "options": ["Alemania", "Estados Unidos", "Reino Unido", "Francia"],
+    "answer": "Reino Unido",
+    "explanation": "La primera revolución industrial comenzó en el Reino Unido alrededor de 1780 con la introducción de la máquina de vapor."
+  },
+  {
+    "question": "¿Qué tecnología impulsó la segunda revolución industrial?",
+    "options": ["Internet", "Electricidad", "Big Data", "Robótica"],
+    "answer": "Electricidad",
+    "explanation": "La electricidad permitió la producción en masa y el uso de líneas de montaje en la segunda revolución industrial."
+  },
+  {
+    "question": "¿Qué define a la tercera revolución industrial?",
+    "options": [
+      "Automatización y electrónica",
+      "Uso del vapor",
+      "Mantenimiento manual",
+      "Producción artesanal"
+    ],
+    "answer": "Automatización y electrónica",
+    "explanation": "La tercera revolución industrial se centró en la automatización con autómatas programables y redes digitales."
+  },
+  {
+    "question": "¿En qué país surgió oficialmente la Industria 4.0?",
+    "options": ["Japón", "China", "Alemania", "España"],
+    "answer": "Alemania",
+    "explanation": "La Industria 4.0 se originó en Alemania en 2013 como un concepto estratégico para modernizar la industria."
+  },
+  {
+    "question": "¿Qué tecnología permite almacenar y procesar grandes cantidades de datos?",
+    "options": [
+      "IoT",
+      "Cloud Computing",
+      "Gemelo Digital",
+      "RA (Realidad Aumentada)"
+    ],
+    "answer": "Cloud Computing",
+    "explanation": "El Cloud Computing permite acceder a infraestructura informática a través de internet, facilitando el análisis de datos."
+  },
+  {
+    "question": "¿Para qué se utiliza el Internet de las Cosas Industrial (IIoT)?",
+    "options": [
+      "Conectar dispositivos médicos",
+      "Monitorear y controlar equipos industriales",
+      "Crear videojuegos",
+      "Enviar correos electrónicos"
+    ],
+    "answer": "Monitorear y controlar equipos industriales",
+    "explanation": "El IIoT permite conectar sensores y máquinas en entornos industriales para tomar decisiones inteligentes en tiempo real."
+  },
+  {
+    "question": "¿Qué permite el Big Data en la Industria 4.0?",
+    "options": [
+      "Almacenamiento masivo de energía",
+      "Análisis de grandes volúmenes de datos",
+      "Mejora de la iluminación",
+      "Reducción de personal"
+    ],
+    "answer": "Análisis de grandes volúmenes de datos",
+    "explanation": "El Big Data permite recopilar y analizar datos complejos para predecir comportamientos y optimizar procesos."
+  },
+  {
+    "question": "¿Qué función cumple la ciberseguridad en la Industria 4.0?",
+    "options": [
+      "Aumentar costos operativos",
+      "Proteger sistemas contra ataques",
+      "Eliminar información sensible",
+      "Reducir la velocidad de conexión"
+    ],
+    "answer": "Proteger sistemas contra ataques",
+    "explanation": "La ciberseguridad protege los activos industriales y garantiza la veracidad y seguridad de los datos."
+  },
+  {
+    "question": "¿Qué son los cobots?",
+    "options": [
+      "Robots colaborativos",
+      "Robots de combate",
+      "Computadoras portátiles",
+      "Sensores industriales"
+    ],
+    "answer": "Robots colaborativos",
+    "explanation": "Los cobots son robots diseñados para trabajar junto a humanos en entornos compartidos."
+  },
+  {
+    "question": "¿Qué hace un robot móvil en la Industria 4.0?",
+    "options": [
+      "Se queda estático",
+      "Recorre rutas programadas",
+      "Sólo limpia",
+      "No tiene utilidad"
+    ],
+    "answer": "Recorre rutas programadas",
+    "explanation": "Los robots móviles pueden navegar por fábricas y coordinarse entre sí para realizar tareas específicas."
+  },
+  {
+    "question": "¿Qué es la Realidad Aumentada en la Industria 4.0?",
+    "options": [
+      "Eliminar imágenes reales",
+      "Superponer información virtual sobre lo físico",
+      "Cambiar colores de productos",
+      "Simular juegos de azar"
+    ],
+    "answer": "Superponer información virtual sobre lo físico",
+    "explanation": "La Realidad Aumentada mejora labores como mantenimiento, logística y entrenamiento con información visual adicional."
+  },
+  {
+    "question": "¿Qué es la Inteligencia Artificial en la Industria 4.0?",
+    "options": [
+      "Solo software básico",
+      "Programas que imitan el pensamiento humano",
+      "Hardware especializado",
+      "Sistemas manuales"
+    ],
+    "answer": "Programas que imitan el pensamiento humano",
+    "explanation": "La IA permite a los sistemas aprender, razonar y adaptarse para mejorar procesos industriales."
+  },
+  {
+    "question": "¿Qué es el aprendizaje supervisado?",
+    "options": [
+      "Sin datos etiquetados",
+      "Datos etiquetados y modelos predictivos",
+      "Solo observación pasiva",
+      "Entrenamiento sin feedback"
+    ],
+    "answer": "Datos etiquetados y modelos predictivos",
+    "explanation": "El aprendizaje supervisado usa datos etiquetados para entrenar modelos que predigan resultados futuros."
+  },
+  {
+    "question": "¿Qué es el Gemelo Digital?",
+    "options": [
+      "Un robot duplicado",
+      "Una copia física de una máquina",
+      "Representación virtual de un producto o proceso",
+      "Una herramienta de diseño gráfico"
+    ],
+    "answer": "Representación virtual de un producto o proceso",
+    "explanation": "El Gemelo Digital simula procesos y productos antes de su implementación física, mejorando eficiencia."
+  },
+  {
+    "question": "¿Qué significa descentralización en la Industria 4.0?",
+    "options": [
+      "Todas las decisiones desde un solo lugar",
+      "Decisiones tomadas donde se necesiten",
+      "Mayor burocracia",
+      "Menor comunicación"
+    ],
+    "answer": "Decisiones tomadas donde se necesiten",
+    "explanation": "La descentralización permite tomar decisiones en el punto exacto donde se requieren, reduciendo tiempos y cuellos de botella."
+  },
+  {
+    "question": "¿Qué permite la virtualización en la Industria 4.0?",
+    "options": [
+      "Duplicar hardware físico",
+      "Supervisión remota y simulación de procesos",
+      "Eliminar sensores",
+      "Reducir conectividad"
+    ],
+    "answer": "Supervisión remota y simulación de procesos",
+    "explanation": "La virtualización permite monitorear y simular procesos industriales de forma digital, sin intervención física directa."
+  },
+  {
+    "question": "¿Qué significa personalización en masa?",
+    "options": [
+      "Fabricar solo lotes grandes",
+      "Personalizar productos sin afectar eficiencia",
+      "Fabricar siempre lo mismo",
+      "No ajustar productos"
+    ],
+    "answer": "Personalizar productos sin afectar eficiencia",
+    "explanation": "Permite ofrecer productos personalizados manteniendo niveles altos de productividad y bajo costo."
+  },
+  {
+    "question": "¿Qué implica el mantenimiento predictivo?",
+    "options": [
+      "Esperar a que fallen los equipos",
+      "Detectar problemas antes de que ocurran",
+      "Realizar mantenimiento solo anualmente",
+      "Usar técnicos menos calificados"
+    ],
+    "answer": "Detectar problemas antes de que ocurran",
+    "explanation": "El mantenimiento predictivo utiliza datos en tiempo real para anticipar y resolver fallos antes de que ocurran."
+  },
+  {
+    "question": "¿Qué es la trazabilidad en la Industria 4.0?",
+    "options": [
+      "Ocultar el estado del producto",
+      "Seguir el estado del producto en toda la cadena",
+      "No seguir el proceso",
+      "Solo verificar al final"
+    ],
+    "answer": "Seguir el estado del producto en toda la cadena",
+    "explanation": "La trazabilidad permite conocer el estatus de cada producto durante todo el ciclo productivo y postventa."
+  },
+  {
+    "question": "¿Qué ventaja brinda la alta eficiencia operativa?",
+    "options": [
+      "Aumento de costos",
+      "Rápida toma de decisiones y mayor competitividad",
+      "Disminución de calidad",
+      "Menor integración"
+    ],
+    "answer": "Rápida toma de decisiones y mayor competitividad",
+    "explanation": "La eficiencia operativa mejora la capacidad de respuesta y reduce errores, aumentando la competitividad."
+  },
+  {
+    "question": "¿Qué incluye el modelo Smart Manufacturing?",
+    "options": [
+      "Desintegración vertical",
+      "Virtualización y flexibilidad",
+      "Mayor dependencia de personal",
+      "Ignorar la automatización"
+    ],
+    "answer": "Virtualización y flexibilidad",
+    "explanation": "Smart Manufacturing permite ajustar automáticamente las líneas de producción según demandas cambiantes."
+  },
+  {
+    "question": "¿Qué característica tienen los productos inteligentes?",
+    "options": [
+      "No se conectan entre sí",
+      "Son autónomos y conectados",
+      "Solo funcionan manualmente",
+      "No monitorean su estado"
+    ],
+    "answer": "Son autónomos y conectados",
+    "explanation": "Los productos inteligentes pueden monitorear, conectarse y optimizar su propio funcionamiento."
+  },
+  {
+    "question": "¿Qué implica una cadena de suministro inteligente?",
+    "options": [
+      "Intercambio manual de información",
+      "Uso de plataformas digitales con proveedores y clientes",
+      "Ignorar datos externos",
+      "Dependencia de métodos antiguos"
+    ],
+    "answer": "Uso de plataformas digitales con proveedores y clientes",
+    "explanation": "La cadena de suministro inteligente mejora la colaboración y visibilidad entre todos los actores involucrados."
+  },
+  {
+    "question": "¿Qué tecnología ayuda en el trabajo remoto en la industria?",
+    "options": [
+      "Impresoras 3D",
+      "Monitores simples",
+      "Plataformas de monitoreo remoto",
+      "Sistemas de pago"
+    ],
+    "answer": "Plataformas de monitoreo remoto",
+    "explanation": "Permiten controlar y operar procesos industriales desde cualquier lugar con acceso a internet."
+  },
+  {
+    "question": "¿Qué permite la realidad aumentada en mantenimiento?",
+    "options": [
+      "Ver información adicional sobre equipos",
+      "Ocultar datos importantes",
+      "Limitar el acceso a recursos",
+      "Reducir precisión"
+    ],
+    "answer": "Ver información adicional sobre equipos",
+    "explanation": "La RA muestra datos relevantes en tiempo real, mejorando la precisión y rapidez en labores de mantenimiento."
+  },
+  {
+    "question": "¿Qué ventaja ofrece la robótica colaborativa?",
+    "options": [
+      "Trabajo en áreas separadas",
+      "Colaboración segura con humanos",
+      "Mayor riesgo laboral",
+      "Exclusión del personal"
+    ],
+    "answer": "Colaboración segura con humanos",
+    "explanation": "Los cobots trabajan lado a lado con personas, mejorando productividad y seguridad."
+  },
+  {
+    "question": "¿Qué es la fabricación aditiva?",
+    "options": [
+      "Eliminación de materiales",
+      "Producción por capas (impresión 3D)",
+      "Diseño tradicional",
+      "Corte de piezas grandes"
+    ],
+    "answer": "Producción por capas (impresión 3D)",
+    "explanation": "La fabricación aditiva construye objetos capa por capa, permitiendo diseños complejos y personalizados."
+  },
+  {
+    "question": "¿Cuál es uno de los ejemplos de aplicación de la Industria 4.0?",
+    "options": [
+      "Diseño colaborativo",
+      "Manualidades escolares",
+      "Venta de libros",
+      "Servicios bancarios básicos"
+    ],
+    "answer": "Diseño colaborativo",
+    "explanation": "El diseño colaborativo permite a equipos trabajar conjuntamente en proyectos industriales usando herramientas digitales."
+  }
+]

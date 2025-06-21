@@ -1,0 +1,332 @@
+[
+  {
+    "question": "¿Qué es una variable aleatoria?",
+    "options": [
+      "Un número fijo asignado a un evento",
+      "Un número $ x(\\zeta) $ asignado a cada resultado $ \\zeta $ de un experimento",
+      "Una función lineal de tiempo",
+      "Una medida de tendencia central"
+    ],
+    "answer": "Un número $ x(\\zeta) $ asignado a cada resultado $ \\zeta $ de un experimento",
+    "explanation": "Una variable aleatoria asigna un valor numérico a cada resultado posible de un experimento."
+  },
+  {
+    "question": "¿Qué representa la función de distribución de probabilidad $ F_x(x) $?",
+    "options": [
+      "La derivada de la función de densidad",
+      "La probabilidad de que la variable aleatoria sea menor o igual que un valor dado",
+      "La varianza de la distribución",
+      "La media de la distribución"
+    ],
+    "answer": "La probabilidad de que la variable aleatoria sea menor o igual que un valor dado",
+    "explanation": "La función de distribución acumulativa $ F_x(x) $ se define como $ P\\{x \\leq x\\} $, es decir, la probabilidad acumulada hasta cierto valor."
+  },
+  {
+    "question": "¿Cómo se obtiene la función de densidad de probabilidad $ f_x(x) $?",
+    "options": [
+      "Integrando la función de distribución",
+      "Derivando la función de distribución",
+      "Promediando la función de distribución",
+      "Multiplicando por una constante"
+    ],
+    "answer": "Derivando la función de distribución",
+    "explanation": "La función de densidad de probabilidad es la derivada de la función de distribución de probabilidad."
+  },
+  {
+    "question": "¿Cuál es la forma general de la función de densidad de una distribución normal o gaussiana?",
+    "options": [
+      "$ f_x(x) = e^{-x^2} $",
+      "$ f_x(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}} e^{\\frac{-(x-\\mu)^2}{2\\sigma^2}} $",
+      "$ f_x(x) = \\mu + \\sigma^2 $",
+      "$ f_x(x) = \\frac{\\sigma^2}{2\\pi} $"
+    ],
+    "answer": "$ f_x(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}} e^{\\frac{-(x-\\mu)^2}{2\\sigma^2}} $",
+    "explanation": "Esta es la expresión matemática que define una distribución gaussiana con parámetros $ \\mu $ (media) y $ \\sigma^2 $ (varianza)."
+  },
+  {
+    "question": "¿Qué indica la notación $ x \\sim N(\\mu, \\sigma^2) $?",
+    "options": [
+      "Que $ x $ tiene una distribución uniforme",
+      "Que $ x $ tiene una distribución normal con media $ \\mu $ y varianza $ \\sigma^2 $",
+      "Que $ x $ tiene una distribución exponencial",
+      "Que $ x $ tiene una distribución binomial"
+    ],
+    "answer": "Que $ x $ tiene una distribución normal con media $ \\mu $ y varianza $ \\sigma^2 $",
+    "explanation": "La notación describe que la variable aleatoria $ x $ sigue una distribución gaussiana con los parámetros dados."
+  },
+  {
+    "question": "¿Qué tipo de ruido se asume para $ w(t) $ y $ v(t) $ en el filtro de Kalman-Bucy?",
+    "options": [
+      "Ruido periódico",
+      "Ruido gaussiano blanco",
+      "Ruido cíclico",
+      "Ruido impulsivo"
+    ],
+    "answer": "Ruido gaussiano blanco",
+    "explanation": "El filtro de Kalman-Bucy requiere que los ruidos sean gaussianos, blancos y no correlacionados entre sí."
+  },
+  {
+    "question": "¿Qué propiedad debe cumplirse entre los ruidos $ w(t) $ y $ v(t) $ en el filtro de Kalman?",
+    "options": [
+      "Deben ser idénticos",
+      "Deben estar perfectamente correlacionados",
+      "No deben estar correlacionados",
+      "Deben tener la misma varianza"
+    ],
+    "answer": "No deben estar correlacionados",
+    "explanation": "Para garantizar una estimación óptima, los ruidos de proceso y medición deben ser independientes."
+  },
+  {
+    "question": "¿Cuál es la función objetivo que minimiza el filtro de Kalman?",
+    "options": [
+      "La media del error",
+      "La varianza del error de estimación",
+      "La energía total del sistema",
+      "La entropía del sistema"
+    ],
+    "answer": "La varianza del error de estimación",
+    "explanation": "El filtro de Kalman minimiza la covarianza del error de estimación, es decir, la incertidumbre en la estimación del estado."
+  },
+  {
+    "question": "¿Qué representa la matriz $ L $ en el filtro de Kalman-Bucy?",
+    "options": [
+      "La matriz de estados",
+      "La ganancia del observador",
+      "La matriz de covarianza del ruido",
+      "La matriz de transición"
+    ],
+    "answer": "La ganancia del observador",
+    "explanation": "La matriz $ L $ pondera cómo se corrige la estimación del estado basándose en la diferencia entre las salidas medidas y estimadas."
+  },
+  {
+    "question": "¿Cuál es la ecuación diferencial que describe la dinámica del estimador en el filtro de Kalman-Bucy?",
+    "options": [
+      "$ \\dot{x} = Ax + Bu $",
+      "$ \\dot{\\tilde{x}} = A\\tilde{x} + Bu + L(y - C\\tilde{x}) $",
+      "$ \\dot{x} = Ax + L(y - Cx) $",
+      "$ \\dot{y} = Cx $"
+    ],
+    "answer": "$ \\dot{\\tilde{x}} = A\\tilde{x} + Bu + L(y - C\\tilde{x}) $",
+    "explanation": "Esta es la forma completa del filtro de Kalman-Bucy, donde se usa la ganancia $ L $ para corregir la estimación."
+  },
+  {
+    "question": "¿Qué representa la matriz $ P_e $ en el filtro de Kalman?",
+    "options": [
+      "La matriz de entrada",
+      "La covarianza del error de estimación",
+      "La matriz de salida",
+      "La matriz de ganancia"
+    ],
+    "answer": "La covarianza del error de estimación",
+    "explanation": "La matriz $ P_e $ contiene las varianzas de los errores de estimación para cada componente del estado."
+  },
+  {
+    "question": "¿Cuál es la ecuación de Riccati utilizada para calcular la ganancia $ L $ del filtro de Kalman?",
+    "options": [
+      "$ AP_e + P_eA^T − P_eC^TV^{-1}CP_e + W = 0 $",
+      "$ AP_e + P_eA^T + P_eC^TV^{-1}CP_e + W = 0 $",
+      "$ AP_e − P_eA^T − P_eC^TV^{-1}CP_e + W = 0 $",
+      "$ AP_e + P_eA^T − P_eC^TV^{-1}CP_e − W = 0 $"
+    ],
+    "answer": "$ AP_e + P_eA^T − P_eC^TV^{-1}CP_e + W = 0 $",
+    "explanation": "Esta es la ecuación algebraica de Riccati que se resuelve para encontrar la matriz de covarianza del error de estimación."
+  },
+  {
+    "question": "¿Qué significa que la traza de $ P_e $ tienda a un valor límite en el filtro de Kalman?",
+    "options": [
+      "Que el sistema deja de funcionar",
+      "Que el error de estimación crece indefinidamente",
+      "Que la energía del error de estimación converge a un valor constante",
+      "Que la entrada del sistema se vuelve cero"
+    ],
+    "answer": "Que la energía del error de estimación converge a un valor constante",
+    "explanation": "La traza de $ P_e $ representa la suma de las varianzas de los errores de estimación, lo cual indica la calidad de la estimación."
+  },
+  {
+    "question": "¿Qué propiedad del filtro de Kalman asegura que el error de estimación tienda a cero con el tiempo?",
+    "options": [
+      "Estabilidad interna",
+      "Convergencia del valor esperado del error",
+      "Linealidad del sistema",
+      "Invariancia en el tiempo"
+    ],
+    "answer": "Convergencia del valor esperado del error",
+    "explanation": "Bajo condiciones adecuadas, el filtro de Kalman asegura que $ E[e(t)] → 0 $ cuando $ t → ∞ $."
+  },
+  {
+    "question": "¿Qué relación existe entre el filtro de Kalman y el regulador cuadrático lineal (LQR)?",
+    "options": [
+      "Son sistemas completamente independientes",
+      "Son duales uno del otro",
+      "Son versiones idénticas del mismo algoritmo",
+      "Uno se utiliza solo para sistemas discretos y el otro para continuos"
+    ],
+    "answer": "Son duales uno del otro",
+    "explanation": "El filtro de Kalman y el LQR son duales matemáticos, lo que permite usar técnicas similares para diseñar ambos."
+  },
+  {
+    "question": "¿Qué papel juega la matriz $ Q $ en el diseño dual del filtro de Kalman?",
+    "options": [
+      "Representa la covarianza del ruido de medición",
+      "Representa la covarianza del ruido de proceso",
+      "Es irrelevante",
+      "Representa la matriz de estado"
+    ],
+    "answer": "Representa la covarianza del ruido de proceso",
+    "explanation": "En el problema dual, la matriz $ Q $ corresponde a la matriz $ W $ del filtro de Kalman."
+  },
+  {
+    "question": "¿Qué papel juega la matriz $ R $ en el diseño dual del filtro de Kalman?",
+    "options": [
+      "Representa la covarianza del ruido de proceso",
+      "Representa la covarianza del ruido de medición",
+      "Es irrelevante",
+      "Representa la matriz de estado"
+    ],
+    "answer": "Representa la covarianza del ruido de medición",
+    "explanation": "En el problema dual, la matriz $ R $ corresponde a la matriz $ V $ del filtro de Kalman."
+  },
+  {
+    "question": "¿Qué representa la diagonal principal de la matriz $ W $?",
+    "options": [
+      "Las varianzas de los ruidos que afectan a cada variable de estado",
+      "Las covarianzas entre diferentes variables de estado",
+      "La ganancia del filtro",
+      "La traza de la matriz de covarianza"
+    ],
+    "answer": "Las varianzas de los ruidos que afectan a cada variable de estado",
+    "explanation": "Los elementos diagonales representan la varianza individual de cada fuente de ruido que afecta al sistema."
+  },
+  {
+    "question": "¿Qué representa la diagonal principal de la matriz $ V $?",
+    "options": [
+      "Las covarianzas entre mediciones",
+      "Las varianzas del ruido de medición",
+      "La ganancia del observador",
+      "La traza de la matriz de covarianza"
+    ],
+    "answer": "Las varianzas del ruido de medición",
+    "explanation": "Indican la incertidumbre asociada a cada medición realizada."
+  },
+  {
+    "question": "¿Cuál es la ley de control del controlador LQG?",
+    "options": [
+      "$ u = K\\tilde{x} $",
+      "$ u = -K\\tilde{x} $",
+      "$ u = L\\tilde{x} $",
+      "$ u = -L\\tilde{x} $"
+    ],
+    "answer": "$ u = -K\\tilde{x} $",
+    "explanation": "La ley de control del LQG combina un controlador LQR y un filtro de Kalman, usando la estimación del estado."
+  },
+  {
+    "question": "¿Qué se optimiza en el controlador LQR?",
+    "options": [
+      "La energía del error de medición",
+      "La energía del error de estimación",
+      "La energía del estado y la entrada de control",
+      "La entropía del sistema"
+    ],
+    "answer": "La energía del estado y la entrada de control",
+    "explanation": "El LQR minimiza una función de costo cuadrática que incluye términos de estado y entrada."
+  },
+  {
+    "question": "¿Qué condición debe cumplir la matriz $ Q $ en el diseño del LQR?",
+    "options": [
+      "Ser definida negativa",
+      "Ser semidefinida positiva",
+      "Ser cualquier matriz",
+      "Ser diagonal"
+    ],
+    "answer": "Ser semidefinida positiva",
+    "explanation": "Se requiere que $ Q \\geq 0 $ para penalizar el desvío del estado deseado sin penalizar negativamente."
+  },
+  {
+    "question": "¿Qué condición debe cumplir la matriz $ R $ en el diseño del LQR?",
+    "options": [
+      "Ser semidefinida positiva",
+      "Ser definida positiva",
+      "Ser cualquier matriz",
+      "Ser diagonal"
+    ],
+    "answer": "Ser definida positiva",
+    "explanation": "Se requiere que $ R > 0 $ para evitar que la entrada de control crezca ilimitadamente."
+  },
+  {
+    "question": "¿Qué representa la solución de la ecuación de Riccati en el LQR?",
+    "options": [
+      "La ganancia del controlador",
+      "La covarianza del ruido de proceso",
+      "La covarianza del error de estimación",
+      "La matriz de estado"
+    ],
+    "answer": "La ganancia del controlador",
+    "explanation": "La solución de la ecuación de Riccati se usa para calcular la ganancia $ K $ del controlador LQR."
+  },
+  {
+    "question": "¿Qué representa la traza($ P $) en el contexto del filtro de Kalman?",
+    "options": [
+      "La varianza del ruido de proceso",
+      "La varianza del ruido de medición",
+      "La energía del error de estimación",
+      "La ganancia del observador"
+    ],
+    "answer": "La energía del error de estimación",
+    "explanation": "La traza de la matriz de covarianza del error de estimación representa la suma de las varianzas de los errores."
+  },
+  {
+    "question": "¿Qué se requiere para que el filtro de Kalman converja a una solución estable?",
+    "options": [
+      "Que el sistema sea inestable",
+      "Que el sistema sea observable y detectable",
+      "Que el sistema tenga ruido muy alto",
+      "Que el sistema no tenga salida"
+    ],
+    "answer": "Que el sistema sea observable y detectable",
+    "explanation": "Para que el filtro funcione correctamente, el sistema debe permitir la estimación precisa de todos sus estados."
+  },
+  {
+    "question": "¿Qué se puede afirmar sobre la estabilidad del filtro de Kalman?",
+    "options": [
+      "Siempre es inestable",
+      "Depende de la entrada del sistema",
+      "Es inherentemente estable bajo condiciones de observabilidad",
+      "Nunca es estable"
+    ],
+    "answer": "Es inherentemente estable bajo condiciones de observabilidad",
+    "explanation": "El filtro de Kalman es estable si el sistema es observable y el ruido está bien caracterizado."
+  },
+  {
+    "question": "¿Qué efecto tiene aumentar la varianza en la matriz $ V $?",
+    "options": [
+      "Disminuye la confianza en las mediciones",
+      "Aumenta la confianza en las mediciones",
+      "No tiene efecto",
+      "Hace que el sistema deje de funcionar"
+    ],
+    "answer": "Disminuye la confianza en las mediciones",
+    "explanation": "Una mayor varianza en $ V $ indica mayor incertidumbre en las mediciones, lo que reduce su peso en la estimación."
+  },
+  {
+    "question": "¿Qué efecto tiene aumentar la varianza en la matriz $ W $?",
+    "options": [
+      "Aumenta la confianza en el modelo del sistema",
+      "Disminuye la confianza en el modelo del sistema",
+      "No tiene efecto",
+      "Hace que el sistema deje de funcionar"
+    ],
+    "answer": "Disminuye la confianza en el modelo del sistema",
+    "explanation": "Una mayor varianza en $ W $ indica mayor incertidumbre en el modelo del sistema, lo que hace que se dependa más de las mediciones."
+  },
+  {
+    "question": "¿Qué se requiere para aplicar el filtro de Kalman a un sistema?",
+    "options": [
+      "Que el sistema sea no lineal",
+      "Que el sistema sea lineal y los ruidos sean gaussianos",
+      "Que el sistema no tenga ruido",
+      "Que el sistema sea de tiempo variable"
+    ],
+    "answer": "Que el sistema sea lineal y los ruidos sean gaussianos",
+    "explanation": "El filtro de Kalman clásico requiere un modelo lineal y ruidos gaussianos para garantizar una estimación óptima."
+  }
+]

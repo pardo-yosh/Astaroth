@@ -1,0 +1,333 @@
+[
+  {
+    "question": "¿Qué representa la matriz $ A_d $ en un sistema en espacio de estados discreto?",
+    "options": [
+      "Matriz de entrada",
+      "Matriz de salida",
+      "Matriz de dinámica de estados",
+      "Matriz de ruido"
+    ],
+    "answer": "Matriz de dinámica de estados",
+    "explanation": "La matriz $ A_d $ define cómo evoluciona el vector de estados $ x(k) $ en el tiempo discreto."
+  },
+  {
+    "question": "¿Cuál es la ecuación para discretizar la matriz $ B_d $ a partir de $ A_c $ y $ B_c $?",
+    "options": [
+      "$ B_d = (A_d - I_n)A_c^{-1}B_c $",
+      "$ B_d = A_cB_c $",
+      "$ B_d = e^{A_ct_s} $",
+      "$ B_d = C_dA_d $"
+    ],
+    "answer": "$ B_d = (A_d - I_n)A_c^{-1}B_c $",
+    "explanation": "Esta ecuación se usa para obtener la matriz de entrada discreta $ B_d $ a partir de la representación continua."
+  },
+  {
+    "question": "¿Cuál es la condición de estabilidad en sistemas en espacio de estados discretos?",
+    "options": [
+      "Todos los autovalores de $ A_d $ deben tener parte real menor que cero",
+      "Todos los autovalores de $ A_d $ deben estar dentro del círculo unitario",
+      "Los autovalores pueden ser complejos pero no reales",
+      "Los autovalores deben ser mayores que uno"
+    ],
+    "answer": "Todos los autovalores de $ A_d $ deben estar dentro del círculo unitario",
+    "explanation": "En sistemas discretos, la estabilidad se determina por si los autovalores están dentro del círculo unitario en el plano complejo."
+  },
+  {
+    "question": "¿Qué función de costo se utiliza en el controlador LQR discreto?",
+    "options": [
+      "$ J = int_0^infty [x^T(t)Qx(t) + u^T(t)Ru(t)] dt $",
+      "$ J = sum_{k=0}^infty [x^T(k)Qx(k) + u^T(k)Ru(k)] $",
+      "$ J = x^T(0)Px(0) $",
+      "$ J = \text{tr}(QC) $"
+    ],
+    "answer": "$ J = sum_{k=0}^infty [x^T(k)Qx(k) + u^T(k)Ru(k)] $",
+    "explanation": "En el caso discreto, la función objetivo se expresa como una suma infinita de los términos cuadráticos de estados y entradas."
+  },
+  {
+    "question": "¿Cuál es la forma general del sistema en espacio de estados discreto?",
+    "options": [
+      "$ dot{x}(t) = A_cx(t) + B_cu(t) $",
+      "$ x(k+1) = A_dx(k) + B_du(k) $",
+      "$ x(k) = A_dx(k-1) + B_du(k) $",
+      "$ x(k) = A_dx(k) + B_du(k) $"
+    ],
+    "answer": "$ x(k+1) = A_dx(k) + B_du(k) $",
+    "explanation": "Esta es la forma estándar de representar la evolución temporal en sistemas discretos."
+  },
+  {
+    "question": "¿Cuál es la relación entre las matrices $ A_d $ y $ A_c $ en la discretización?",
+    "options": [
+      "$ A_d = e^{A_c t_s} $",
+      "$ A_d = A_c t_s $",
+      "$ A_d = A_c + I $",
+      "$ A_d = A_c^2 $"
+    ],
+    "answer": "$ A_d = e^{A_c t_s} $",
+    "explanation": "La matriz $ A_d $ se obtiene mediante la exponenciación matricial de $ A_c $ multiplicada por el tiempo de muestreo $ t_s $."
+  },
+  {
+    "question": "¿Qué herramienta en MATLAB se puede usar para discretizar un sistema continuo?",
+    "options": ["c2d()", "d2c()", "ss()", "tf()"],
+    "answer": "c2d()",
+    "explanation": "El comando `c2d()` permite convertir un sistema continuo en su equivalente discreto dado un tiempo de muestreo."
+  },
+  {
+    "question": "¿Qué propiedad garantiza que todos los estados puedan ser influenciados por las entradas?",
+    "options": [
+      "Observabilidad",
+      "Controlabilidad",
+      "Estabilidad",
+      "Linealidad"
+    ],
+    "answer": "Controlabilidad",
+    "explanation": "Un sistema es completamente controlable si cualquier estado inicial puede llevarse a cualquier estado final en tiempo finito usando una entrada adecuada."
+  },
+  {
+    "question": "¿Cuál es la forma de la matriz de controlabilidad en tiempo discreto?",
+    "options": [
+      "$ S = [B quad AB quad A^2B quad dots quad A^{n-1}B] $",
+      "$ S = [B_d quad A_dB_d quad A_d^2B_d quad dots quad A_d^{n-1}B_d] $",
+      "$ S = [C quad CA quad CA^2 quad dots quad CA^{n-1}] $",
+      "$ S = [D quad CB quad CAB quad dots quad CA^{n}B] $"
+    ],
+    "answer": "$ S = [B_d quad A_dB_d quad A_d^2B_d quad dots quad A_d^{n-1}B_d] $",
+    "explanation": "Esta es la definición correcta de la matriz de controlabilidad para sistemas en tiempo discreto."
+  },
+  {
+    "question": "¿Qué propiedad asegura que los estados puedan reconstruirse a partir de las salidas?",
+    "options": [
+      "Controlabilidad",
+      "Observabilidad",
+      "Invertibilidad",
+      "Simetría"
+    ],
+    "answer": "Observabilidad",
+    "explanation": "Un sistema es observable si, dada la secuencia de salidas, es posible determinar el estado inicial."
+  },
+  {
+    "question": "¿Cuál es la forma de la matriz de observabilidad en tiempo discreto?",
+    "options": [
+      "$ V = \\begin{bmatrix} C \\\\ CA \\\\ CA^2 \\\\ \\vdots \\\\ CA^{n-1} \\end{bmatrix} $",
+      "$ V = \\begin{bmatrix} C_d \\\\ C_dA_d \\\\ C_dA_d^2 \\\\ \\vdots \\\\ C_dA_d^{n-1} \\end{bmatrix} $",
+      "$ V = \\begin{bmatrix} B \\\\ AB \\\\ A^2B \\\\ \\vdots \\\\ A^{n-1}B \\end{bmatrix} $",
+      "$ V = \\begin{bmatrix} D \\\\ CB \\\\ CAB \\\\ \\vdots \\\\ CA^{n}B \\end{bmatrix} $"
+    ],
+    "answer": "$ V = \\begin{bmatrix} C_d \\\\ C_dA_d \\\\ C_dA_d^2 \\\\ \\vdots \\\\ C_dA_d^{n-1} \\end{bmatrix} $",
+    "explanation": "La matriz de observabilidad para sistemas en tiempo discreto se construye con potencias sucesivas de $ A_d $ premultiplicadas por $ C_d $."
+  },
+  {
+    "question": "¿Cuál es la función en MATLAB utilizada para calcular la ganancia óptima del regulador lineal cuadrático (LQR) en tiempo discreto?",
+    "options": ["lqr()", "dlqr()", "kalman()", "place()"],
+    "answer": "dlqr()",
+    "explanation": "La función `dlqr()` se usa específicamente para resolver el problema de control óptimo en sistemas discretos."
+  },
+  {
+    "question": "¿Qué tipo de ruido se asume en el filtro de Kalman para el diseño de estimadores óptimos?",
+    "options": [
+      "Ruido uniforme",
+      "Ruido gaussiano aditivo",
+      "Ruido impulsivo",
+      "Ruido blanco no correlacionado"
+    ],
+    "answer": "Ruido gaussiano aditivo",
+    "explanation": "El filtro de Kalman asume ruido gaussiano aditivo en los estados y en las salidas del sistema."
+  },
+  {
+    "question": "¿Cuál es la forma del sistema considerando ruido en el filtro de Kalman?",
+    "options": [
+      "$ x(k+1) = A_dx(k) + B_du(k) $",
+      "$ x(k+1) = A_dx(k) + B_du(k) + w(k), y(k) = C_dx(k) + v(k) $",
+      "$ y(k) = C_dx(k) + D_du(k) $",
+      "$ x(k+1) = A_dx(k) + w(k) $"
+    ],
+    "answer": "$ x(k+1) = A_dx(k) + B_du(k) + w(k), y(k) = C_dx(k) + v(k) $",
+    "explanation": "Este modelo incluye perturbaciones en los estados ($ w(k) $) y ruido en las salidas ($ v(k) $)."
+  },
+  {
+    "question": "¿Qué representan las matrices Q y R en el controlador LQR?",
+    "options": [
+      "Matrices de covarianza del ruido",
+      "Matrices de peso para estados y entradas",
+      "Matrices de transformación",
+      "Matrices de observabilidad"
+    ],
+    "answer": "Matrices de peso para estados y entradas",
+    "explanation": "La matriz $ Q $ penaliza los estados y $ R $ penaliza las entradas en la función de costo."
+  },
+  {
+    "question": "¿Qué representa la matriz $ K $ en el controlador LQR?",
+    "options": [
+      "Ganancia del observador",
+      "Ganancia del controlador",
+      "Matriz de ruido",
+      "Matriz de observabilidad"
+    ],
+    "answer": "Ganancia del controlador",
+    "explanation": "La ganancia $ K $ se calcula para minimizar la función de costo cuadrática."
+  },
+  {
+    "question": "¿Cuál es la ecuación del sistema en lazo cerrado con control LQR?",
+    "options": [
+      "$ x(k+1) = A_dx(k) + B_du(k) $",
+      "$ x(k+1) = (A_d - B_dK)x(k) $",
+      "$ x(k+1) = A_dx(k) + w(k) $",
+      "$ x(k+1) = A_dx(k) + B_dKx(k) $"
+    ],
+    "answer": "$ x(k+1) = (A_d - B_dK)x(k) $",
+    "explanation": "Esta es la dinámica del sistema en lazo cerrado cuando se aplica la ley de control $ u(k) = -Kx(k) $."
+  },
+  {
+    "question": "¿Qué representa la matriz $ Q_n $ en el filtro de Kalman?",
+    "options": [
+      "Peso sobre las entradas",
+      "Covarianza del ruido en los estados",
+      "Confianza en las salidas",
+      "Matriz de controlabilidad"
+    ],
+    "answer": "Covarianza del ruido en los estados",
+    "explanation": "La matriz $ Q_n $ modela la incertidumbre o ruido en los estados del sistema."
+  },
+  {
+    "question": "¿Qué representa la matriz $ R_n $ en el filtro de Kalman?",
+    "options": [
+      "Covarianza del ruido en las salidas",
+      "Peso sobre los estados",
+      "Confianza en el modelo",
+      "Matriz de observabilidad"
+    ],
+    "answer": "Covarianza del ruido en las salidas",
+    "explanation": "La matriz $ R_n $ modela la incertidumbre o ruido en las mediciones de los sensores."
+  },
+  {
+    "question": "¿Cómo se calcula la ganancia del filtro de Kalman en MATLAB?",
+    "options": [
+      "dlqr(A_d, B_d, Q, R)",
+      "dlqr(A_d', C_d', Q_n, R_n)'",
+      "lqr(sysd, Q, R)",
+      "place(A_d, B_d, poles)"
+    ],
+    "answer": "dlqr(A_d', C_d', Q_n, R_n)'",
+    "explanation": "Se transpone el sistema y se usa `dlqr()` para resolver el problema dual del observador."
+  },
+  {
+    "question": "¿Qué representa la matriz $ e(k) $ en la estimación de estados?",
+    "options": [
+      "Error de control",
+      "Error de estimación",
+      "Error de observación",
+      "Error de predicción"
+    ],
+    "answer": "Error de estimación",
+    "explanation": "El error de estimación es la diferencia entre el estado real y el estado estimado."
+  },
+  {
+    "question": "¿Cuál es la ventaja principal del controlador LQR?",
+    "options": [
+      "Maximiza el consumo de energía",
+      "Minimiza una función de costo cuadrática",
+      "Ignora los estados no medibles",
+      "Es robusto frente a perturbaciones"
+    ],
+    "answer": "Minimiza una función de costo cuadrática",
+    "explanation": "El controlador LQR encuentra la ley de control que minimiza una combinación ponderada de estados y entradas."
+  },
+  {
+    "question": "¿Cuál es la ventaja principal del filtro de Kalman?",
+    "options": [
+      "Reduce la complejidad computacional",
+      "Estima los estados en presencia de ruido",
+      "Elimina todas las perturbaciones",
+      "No requiere modelos matemáticos"
+    ],
+    "answer": "Estima los estados en presencia de ruido",
+    "explanation": "El filtro de Kalman proporciona una estimación óptima de los estados del sistema cuando hay ruido en los estados y en las salidas."
+  },
+  {
+    "question": "¿Cuál es la estructura típica de un sistema de control LQG?",
+    "options": [
+      "Controlador PID",
+      "Regulador LQR y filtro de Kalman",
+      "Sistema en lazo abierto",
+      "Compensador de adelanto-atraso"
+    ],
+    "answer": "Regulador LQR y filtro de Kalman",
+    "explanation": "El control LQG combina un controlador LQR para optimizar el desempeño y un filtro de Kalman para estimar los estados."
+  },
+  {
+    "question": "¿Qué se espera lograr con el esquema de control LQG discreto?",
+    "options": [
+      "Reducir el número de sensores",
+      "Controlar y estimar estados en presencia de ruido",
+      "Eliminar el ruido del sistema",
+      "Aumentar la velocidad de respuesta"
+    ],
+    "answer": "Controlar y estimar estados en presencia de ruido",
+    "explanation": "El objetivo del LQG es diseñar un controlador que funcione bien incluso cuando hay ruido en los estados y en las mediciones."
+  },
+  {
+    "question": "¿Cuál es la principal ventaja de trabajar en tiempo discreto en sistemas de control digital?",
+    "options": [
+      "Mayor precisión analógica",
+      "Compatibilidad con hardware digital",
+      "Menor costo de implementación",
+      "Mayor facilidad de análisis"
+    ],
+    "answer": "Compatibilidad con hardware digital",
+    "explanation": "Los sistemas digitales operan en tiempo discreto, lo que facilita la implementación de algoritmos de control en dispositivos reales."
+  },
+  {
+    "question": "¿Qué representa la matriz $ C_d $ en un sistema en tiempo discreto?",
+    "options": [
+      "Matriz de dinámica",
+      "Matriz de entrada",
+      "Matriz de salida",
+      "Matriz de ruido"
+    ],
+    "answer": "Matriz de salida",
+    "explanation": "La matriz $ C_d $ define cómo los estados del sistema se relacionan con las salidas medidas."
+  },
+  {
+    "question": "¿Qué implica que un sistema tenga rango completo en su matriz de controlabilidad?",
+    "options": [
+      "Que no es estable",
+      "Que es completamente controlable",
+      "Que es completamente observable",
+      "Que tiene ruido en los estados"
+    ],
+    "answer": "Que es completamente controlable",
+    "explanation": "Si la matriz de controlabilidad tiene rango igual al número de estados, el sistema es completamente controlable."
+  },
+  {
+    "question": "¿Cuál es la principal desventaja de utilizar altos valores en la matriz $ Q $ en el LQR?",
+    "options": [
+      "Se reduce la velocidad de respuesta",
+      "Se aumenta el esfuerzo de control",
+      "Se ignora el error de estado",
+      "Se disminuye la estabilidad"
+    ],
+    "answer": "Se reduce la velocidad de respuesta",
+    "explanation": "Altos valores en $ Q $ penalizan más los estados, lo que puede hacer que el sistema responda más lentamente."
+  },
+  {
+    "question": "¿Cuál es la principal desventaja de utilizar altos valores en la matriz $ R $ en el LQR?",
+    "options": [
+      "Se reduce la velocidad de respuesta",
+      "Se aumenta el esfuerzo de control",
+      "Se ignora el error de estado",
+      "Se disminuye la estabilidad"
+    ],
+    "answer": "Se aumenta el esfuerzo de control",
+    "explanation": "Altos valores en $ R $ penalizan más las entradas, lo que puede requerir un mayor esfuerzo de control para alcanzar el objetivo."
+  },
+  {
+    "question": "¿Cuál es la principal ventaja del uso de Simulink para probar controladores antes de la implementación física?",
+    "options": [
+      "Permite reducir costos de hardware",
+      "Facilita la iteración y ajuste de parámetros",
+      "Evita el uso de sensores",
+      "Elimina el ruido del sistema"
+    ],
+    "answer": "Facilita la iteración y ajuste de parámetros",
+    "explanation": "Simulink permite simular el comportamiento del sistema y ajustar controladores sin necesidad de implementarlos físicamente."
+  }
+]

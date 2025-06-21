@@ -490,5 +490,346 @@
     ],
     "answer": "Reduce la huella de carbono",
     "explanation": "IA y sensores optimizan recursos, reduciendo desperdicios y huella de carbono en procesos industriales."
+  },
+  {
+    "question": "¿Qué es la Inteligencia Artificial?",
+    "options": [
+      "Un tipo de robot industrial",
+      "Una rama de la informática que busca crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana",
+      "Un sistema de control manual",
+      "Una herramienta para gestión contable"
+    ],
+    "answer": "Una rama de la informática que busca crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana",
+    "explanation": "La IA se centra en desarrollar algoritmos que permitan a las máquinas aprender, percibir, resolver problemas y tomar decisiones."
+  },
+  {
+    "question": "¿Cuál de los siguientes NO es un campo de la Inteligencia Artificial?",
+    "options": [
+      "Aprendizaje Automático",
+      "Procesamiento de Lenguaje Natural",
+      "Mantenimiento Correctivo",
+      "Visión Artificial"
+    ],
+    "answer": "Mantenimiento Correctivo",
+    "explanation": "El mantenimiento correctivo no es un campo de la IA, mientras que el resto sí lo son dentro de sus aplicaciones tecnológicas."
+  },
+  {
+    "question": "¿Qué es el Aprendizaje Supervisado?",
+    "options": [
+      "Descubrir patrones en datos no etiquetados",
+      "Entrenamiento de modelos con datos etiquetados para hacer predicciones o clasificaciones",
+      "Aprender mediante recompensas y penalizaciones",
+      "Simular procesos humanos sin datos"
+    ],
+    "answer": "Entrenamiento de modelos con datos etiquetados para hacer predicciones o clasificaciones",
+    "explanation": "En el aprendizaje supervisado se utilizan conjuntos de datos con entradas y salidas conocidas para entrenar modelos predictivos."
+  },
+  {
+    "question": "¿Qué tipo de aprendizaje utiliza recompensas y penalizaciones?",
+    "options": [
+      "Aprendizaje Supervisado",
+      "Aprendizaje No Supervisado",
+      "Aprendizaje por Refuerzo",
+      "Aprendizaje Profundo"
+    ],
+    "answer": "Aprendizaje por Refuerzo",
+    "explanation": "Este tipo de aprendizaje se basa en que un agente interactúa con un entorno y aprende a través de señales de recompensa o penalización."
+  },
+  {
+    "question": "¿Para qué se usa el Procesamiento del Lenguaje Natural (PLN)?",
+    "options": [
+      "Para diseñar robots industriales",
+      "Para analizar y generar lenguaje humano",
+      "Para optimizar cadenas de suministro",
+      "Para mejorar la seguridad física"
+    ],
+    "answer": "Para analizar y generar lenguaje humano",
+    "explanation": "El PLN permite a las máquinas comprender, traducir y generar lenguaje natural, como en análisis de sentimientos o generación de reportes automáticos."
+  },
+  {
+    "question": "¿Cuál es una aplicación del PLN mencionada en el documento?",
+    "options": [
+      "Detección de defectos en productos",
+      "Reconocimiento facial",
+      "Generación de lenguaje natural",
+      "Monitoreo de equipos"
+    ],
+    "answer": "Generación de lenguaje natural",
+    "explanation": "Una aplicación del PLN es la creación de textos coherentes a partir de datos o instrucciones, como reportes automáticos."
+  },
+  {
+    "question": "¿Qué hace la Visión Artificial?",
+    "options": [
+      "Analiza datos financieros",
+      "Permite a las máquinas interpretar imágenes y videos",
+      "Controla motores eléctricos",
+      "Gestiona redes sociales"
+    ],
+    "answer": "Permite a las máquinas interpretar imágenes y videos",
+    "explanation": "La visión artificial permite identificar objetos, personas y escenas a partir de imágenes o vídeos."
+  },
+  {
+    "question": "¿Cuál de estas NO es una aplicación de la Visión Artificial?",
+    "options": [
+      "Reconocimiento facial",
+      "Análisis de sentimientos",
+      "Detección de objetos",
+      "Reconocimiento de imágenes"
+    ],
+    "answer": "Análisis de sentimientos",
+    "explanation": "El análisis de sentimientos pertenece al ámbito del Procesamiento del Lenguaje Natural, no de la visión artificial."
+  },
+  {
+    "question": "¿Qué es la Robótica Autónoma?",
+    "options": [
+      "Robots que realizan tareas de manera independiente",
+      "Robots que solo trabajan bajo supervisión humana constante",
+      "Sistemas que gestionan inventarios",
+      "Software que traduce idiomas"
+    ],
+    "answer": "Robots que realizan tareas de manera independiente",
+    "explanation": "Los robots autónomos pueden operar sin intervención directa, adaptándose a cambios en su entorno."
+  },
+  {
+    "question": "¿Qué permite la colaboración hombre-robot?",
+    "options": [
+      "Mayor automatización en áreas remotas",
+      "Reducción de costos de energía",
+      "Mejorar la precisión y eficiencia en tareas complejas",
+      "Eliminación de todos los empleados humanos"
+    ],
+    "answer": "Mejorar la precisión y eficiencia en tareas complejas",
+    "explanation": "Los robots colaborativos trabajan junto a humanos, ayudando en tareas repetitivas o que requieren alta precisión."
+  },
+  {
+    "question": "¿Qué son los Sistemas Expertos?",
+    "options": [
+      "Programas que emulan la toma de decisiones de un experto humano",
+      "Sistemas que detectan fallos mecánicos",
+      "Software de diseño asistido por computadora",
+      "Aplicaciones para redes sociales"
+    ],
+    "answer": "Programas que emulan la toma de decisiones de un experto humano",
+    "explanation": "Estos sistemas usan reglas y bases de conocimiento para simular el razonamiento de un experto en un área específica."
+  },
+  {
+    "question": "¿Cuál es una ventaja del Mantenimiento Predictivo con IA?",
+    "options": [
+      "Aumento de paros no planificados",
+      "Prevención de fallos antes de que ocurran",
+      "Mayor consumo de energía",
+      "Disminución de calidad de productos"
+    ],
+    "answer": "Prevención de fallos antes de que ocurran",
+    "explanation": "Mediante sensores y modelos predictivos, la IA puede anticipar fallos y programar mantenimientos preventivos."
+  },
+  {
+    "question": "¿Cómo contribuye la IA al Control de Calidad Automatizado?",
+    "options": [
+      "Aumentando errores manuales",
+      "Detectando defectos con visión artificial",
+      "Reduciendo la demanda de productos",
+      "Automatizando la contratación de personal"
+    ],
+    "answer": "Detectando defectos con visión artificial",
+    "explanation": "La IA mejora la detección de defectos en tiempo real, mejorando la calidad del producto final."
+  },
+  {
+    "question": "¿Qué permite la Optimización de Procesos Productivos con IA?",
+    "options": [
+      "Aumentar el desperdicio",
+      "Ajustar automáticamente la producción según la demanda",
+      "Eliminar toda necesidad de personal humano",
+      "Ignorar la disponibilidad de recursos"
+    ],
+    "answer": "Ajustar automáticamente la producción según la demanda",
+    "explanation": "Los algoritmos de IA permiten una programación dinámica de la producción, ajustándose a variables cambiantes."
+  },
+  {
+    "question": "¿Cómo ayuda la IA en la Gestión de Inventarios?",
+    "options": [
+      "Aumentando costos innecesarios",
+      "Prediciendo la demanda y ajustando niveles de inventario",
+      "Eliminando almacenes físicos",
+      "Reduciendo la seguridad en almacenamiento"
+    ],
+    "answer": "Prediciendo la demanda y ajustando niveles de inventario",
+    "explanation": "La IA permite predecir patrones de demanda y optimizar los niveles de stock, reduciendo costos de almacenamiento."
+  },
+  {
+    "question": "¿Qué tecnología se usa para la Detección de Anomalías en Seguridad Industrial?",
+    "options": [
+      "Sensores conectados y análisis de datos en tiempo real",
+      "Cámaras análogas",
+      "Herramientas manuales",
+      "Documentación impresa"
+    ],
+    "answer": "Sensores conectados y análisis de datos en tiempo real",
+    "explanation": "La IA analiza patrones de comportamiento y alerta sobre anomalías antes de que causen incidentes."
+  },
+  {
+    "question": "¿Qué beneficio NO se menciona en el documento respecto a la IA en la industria?",
+    "options": [
+      "Eficiencia mejorada",
+      "Reducción de costos",
+      "Mayor contaminación ambiental",
+      "Toma de decisiones basada en datos"
+    ],
+    "answer": "Mayor contaminación ambiental",
+    "explanation": "La IA busca reducir impactos negativos ambientales mediante la optimización de procesos."
+  },
+  {
+    "question": "¿Cuál es un desafío de implementar IA en la industria?",
+    "options": [
+      "Menor capacidad de análisis",
+      "Inversión inicial elevada",
+      "Demasiada información disponible",
+      "Falta de interés empresarial"
+    ],
+    "answer": "Inversión inicial elevada",
+    "explanation": "Implementar soluciones de IA requiere inversión en hardware, software y formación del personal."
+  },
+  {
+    "question": "¿Por qué es importante la Capacitación del Personal en IA?",
+    "options": [
+      "Para evitar la automatización",
+      "Para poder usar correctamente nuevas herramientas tecnológicas",
+      "Para aumentar la burocracia",
+      "Para eliminar la ciberseguridad"
+    ],
+    "answer": "Para poder usar correctamente nuevas herramientas tecnológicas",
+    "explanation": "La capacitación asegura que los empleados puedan trabajar efectivamente con sistemas avanzados de IA."
+  },
+  {
+    "question": "¿Qué aspecto ético plantea la IA según el documento?",
+    "options": [
+      "Mayor productividad",
+      "Privacidad y toma de decisiones automatizada",
+      "Menores tiempos de entrega",
+      "Reducción de empleos manuales"
+    ],
+    "answer": "Privacidad y toma de decisiones automatizada",
+    "explanation": "El uso de IA plantea preocupaciones sobre cómo se manejan los datos personales y quién controla las decisiones automatizadas."
+  },
+  {
+    "question": "¿Qué tecnología se combina con la IA para el monitoreo de equipos?",
+    "options": [
+      "Sensores IoT",
+      "Impresoras 3D",
+      "Maquinaria analógica",
+      "Software de diseño gráfico"
+    ],
+    "answer": "Sensores IoT",
+    "explanation": "Los sensores recogen datos en tiempo real que luego son analizados por sistemas de IA para prever fallos."
+  },
+  {
+    "question": "¿Qué permite la Simulación en la Optimización de Procesos?",
+    "options": [
+      "Visualizar el impacto de cambios antes de aplicarlos",
+      "Aumentar el número de empleados",
+      "Reducir la calidad del producto",
+      "Eliminar el control de calidad"
+    ],
+    "answer": "Visualizar el impacto de cambios antes de aplicarlos",
+    "explanation": "Las simulaciones ayudan a tomar decisiones informadas sobre modificaciones en los procesos productivos."
+  },
+  {
+    "question": "¿Cuál es un ejemplo de Aplicación de Visión Artificial en Industria?",
+    "options": [
+      "Traducción automática",
+      "Reconocimiento facial en cámaras de seguridad",
+      "Análisis financiero",
+      "Control de temperatura ambiente"
+    ],
+    "answer": "Reconocimiento facial en cámaras de seguridad",
+    "explanation": "Se usa para identificar a personas en entornos industriales con fines de seguridad y control de acceso."
+  },
+  {
+    "question": "¿Qué permite la IA en la logística de distribución?",
+    "options": [
+      "Rutas de distribución más eficientes",
+      "Mayor cantidad de vehículos",
+      "Menor uso de tecnología",
+      "Despacho manual de mercancía"
+    ],
+    "answer": "Rutas de distribución más eficientes",
+    "explanation": "La IA calcula rutas óptimas minimizando tiempos y costos de transporte."
+  },
+  {
+    "question": "¿Cómo contribuye la IA a la Ciberseguridad Industrial?",
+    "options": [
+      "Facilitando accesos no autorizados",
+      "Detectando amenazas y protegiendo infraestructuras",
+      "Ignorando ataques digitales",
+      "Reduciendo el uso de internet"
+    ],
+    "answer": "Detectando amenazas y protegiendo infraestructuras",
+    "explanation": "Herramientas de IA identifican patrones sospechosos y defienden redes críticas contra intrusiones."
+  },
+  {
+    "question": "¿Cuál es un beneficio del Control de Calidad Automatizado?",
+    "options": [
+      "Mayor variabilidad en productos",
+      "Identificación temprana de defectos",
+      "Menor rendimiento de maquinaria",
+      "Mayor intervención manual"
+    ],
+    "answer": "Identificación temprana de defectos",
+    "explanation": "La IA permite detectar problemas en tiempo real, mejorando la consistencia y calidad del producto."
+  },
+  {
+    "question": "¿Qué tecnología permite a los robots aprender de su entorno?",
+    "options": [
+      "Aprendizaje por Refuerzo",
+      "Sistemas de control manual",
+      "Impresión 3D",
+      "Almacenamiento en disco duro"
+    ],
+    "answer": "Aprendizaje por Refuerzo",
+    "explanation": "Esta técnica permite a los robots adaptarse a su entorno mediante interacciones y retroalimentación continua."
+  },
+  {
+    "question": "¿Qué tecnología facilita la Generación de Reportes Automáticos?",
+    "options": [
+      "Visión Artificial",
+      "Procesamiento del Lenguaje Natural",
+      "Controladores lógicos programables",
+      "Sistemas de contabilidad tradicional"
+    ],
+    "answer": "Procesamiento del Lenguaje Natural",
+    "explanation": "El PLN permite crear texto coherente a partir de datos estructurados, como reportes técnicos o financieros."
+  },
+  {
+    "question": "¿Qué permite a los robots trabajar junto a humanos?",
+    "options": [
+      "IA y sensores avanzados",
+      "Solo hardware especializado",
+      "Reducción de salarios",
+      "Mayor burocracia"
+    ],
+    "answer": "IA y sensores avanzados",
+    "explanation": "Los robots colaborativos usan sensores y algoritmos de IA para garantizar la seguridad y eficacia en entornos compartidos."
+  },
+  {
+    "question": "¿Qué tecnología ayuda a predecir la demanda de productos?",
+    "options": [
+      "Aprendizaje Supervisado",
+      "Diseño asistido por computadora",
+      "Contabilidad manual",
+      "Redes sociales"
+    ],
+    "answer": "Aprendizaje Supervisado",
+    "explanation": "Modelos entrenados con datos históricos permiten predecir tendencias futuras de consumo."
+  },
+  {
+    "question": "¿Cuál es uno de los objetivos principales de la IA en la Industria 4.0?",
+    "options": [
+      "Eliminar todo tipo de empleo humano",
+      "Optimizar procesos y aumentar la eficiencia",
+      "Incrementar el consumo energético",
+      "Reducir la calidad de los productos"
+    ],
+    "answer": "Optimizar procesos y aumentar la eficiencia",
+    "explanation": "La IA busca mejorar la productividad, reducir costos y aumentar la calidad mediante la automatización inteligente."
   }
 ]
