@@ -18,6 +18,10 @@ export const QUIZ_PATHS = {
     clase8: "/Astaroth/content/tests/questions/procesamiento/clase8.json",
     clase9: "/Astaroth/content/tests/questions/procesamiento/clase9.json",
     clase10: "/Astaroth/content/tests/questions/procesamiento/clase10.json",
+    clase11: "/Astaroth/content/tests/questions/procesamiento/clase11.json",
+    clase12: "/Astaroth/content/tests/questions/procesamiento/clase12.json",
+    clase13: "/Astaroth/content/tests/questions/procesamiento/clase13.json",
+    clase14: "/Astaroth/content/tests/questions/procesamiento/clase14.json",
   },
   sostenible: {
     control2: "/Astaroth/content/tests/questions/sostenible/control2.json",
