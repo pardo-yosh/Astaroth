@@ -1,0 +1,287 @@
+[
+  {
+    "question": "¿Qué significa IoT?",
+    "options": [
+      "Internet Of Technology",
+      "Internet Of Things",
+      "Information Of Technology",
+      "Interaction Of Technologies"
+    ],
+    "answer": "Internet Of Things",
+    "explanation": "IoT es la abreviatura de Internet of Things o Internet de las Cosas, que se refiere a la red de dispositivos físicos conectados a internet."
+  },
+  {
+    "question": "¿Cuál fue uno de los primeros dispositivos conectados a Internet?",
+    "options": [
+      "Un automóvil autónomo",
+      "Una máquina de Coca-Cola",
+      "Un robot industrial",
+      "Una computadora personal"
+    ],
+    "answer": "Una máquina de Coca-Cola",
+    "explanation": "En 1980, una máquina expendedora de Coca-Cola en la Universidad Carnegie Mellon se convirtió en uno de los primeros dispositivos conectados a Internet."
+  },
+  {
+    "question": "¿Cuándo se utilizó por primera vez el término 'IoT'?",
+    "options": ["En 1985", "En 1999", "En 2005", "En 2010"],
+    "answer": "En 1999",
+    "explanation": "El término 'Internet de las Cosas' se usó por primera vez en una presentación sobre RFID en Procter & Gamble en 1999."
+  },
+  {
+    "question": "¿Cuál de las siguientes NO es una capa de la arquitectura IoT?",
+    "options": [
+      "Capa de sensores",
+      "Capa de red",
+      "Capa de preprocesamiento de datos",
+      "Capa de diseño gráfico"
+    ],
+    "answer": "Capa de diseño gráfico",
+    "explanation": "La arquitectura IoT se divide en cuatro capas principales: sensores, red, preprocesamiento y análisis o aplicación en la nube."
+  },
+  {
+    "question": "¿Para qué se utiliza un Gateway IoT?",
+    "options": [
+      "Para diseñar interfaces de usuario",
+      "Para conectar dispositivos con la nube",
+      "Para programar videojuegos",
+      "Para administrar bases de datos"
+    ],
+    "answer": "Para conectar dispositivos con la nube",
+    "explanation": "Un Gateway IoT sirve como punto de conexión entre los dispositivos y la plataforma en la nube, permitiendo comunicación bidireccional."
+  },
+  {
+    "question": "¿Qué tipo de redes forman los sensores inalámbricos en IoT?",
+    "options": ["LAN", "MAN", "WSN", "PAN"],
+    "answer": "WSN",
+    "explanation": "Las WSN (Wireless Sensor Networks) son redes de sensores inalámbricos utilizadas en aplicaciones de teledetección en IoT."
+  },
+  {
+    "question": "¿Cuál NO es una tecnología comúnmente usada en IoT?",
+    "options": ["MQTT", "HTTP", "Java", "ZigBee"],
+    "answer": "Java",
+    "explanation": "Java no es una tecnología específica de IoT, aunque puede ser usado en desarrollo; MQTT, HTTP y ZigBee sí son protocolos o tecnologías comunes en IoT."
+  },
+  {
+    "question": "¿Qué permite hacer el protocolo MQTT?",
+    "options": [
+      "Transferir páginas web",
+      "Enviar correos electrónicos",
+      "Comunicarse mediante un modelo Publicador/Suscriptor",
+      "Codificar videos"
+    ],
+    "answer": "Comunicarse mediante un modelo Publicador/Suscriptor",
+    "explanation": "MQTT es un protocolo ligero basado en el modelo Publicador/Suscriptor que permite bajo uso de ancho de banda y latencia."
+  },
+  {
+    "question": "¿Cuál de estos NO es un tipo de red IoT?",
+    "options": ["LAN", "WAN", "DNA", "WPAN"],
+    "answer": "DNA",
+    "explanation": "DNA no es un tipo de red relacionado con IoT. LAN, WAN y WPAN sí son redes utilizadas en la conectividad IoT."
+  },
+  {
+    "question": "¿Qué característica NO es deseable en un Gateway IoT?",
+    "options": [
+      "Soporte de múltiples protocolos",
+      "Alto consumo energético",
+      "Seguridad integrada",
+      "Escalabilidad"
+    ],
+    "answer": "Alto consumo energético",
+    "explanation": "Un Gateway IoT debe ser eficiente energéticamente para operar en entornos diversos y posiblemente remotos."
+  },
+  {
+    "question": "¿Qué tecnología se usa para la autenticación segura en IoT?",
+    "options": ["JSON Web Token (JWT)", "HTML", "CSS", "Python"],
+    "answer": "JSON Web Token (JWT)",
+    "explanation": "JWT se usa frecuentemente para autenticar dispositivos en plataformas IoT mediante firmas criptográficas."
+  },
+  {
+    "question": "¿Qué función NO realiza la capa de servicio de gestión en IoT?",
+    "options": [
+      "Análisis de información",
+      "Gestión de dispositivos",
+      "Control de seguridad",
+      "Diseño de hardware"
+    ],
+    "answer": "Diseño de hardware",
+    "explanation": "La capa de servicio de gestión se encarga del análisis, seguridad, modelado y gestión de dispositivos, no del diseño físico."
+  },
+  {
+    "question": "¿Qué tipo de procesamiento se favorece en entornos Edge computing?",
+    "options": [
+      "Procesamiento en la nube",
+      "Procesamiento local",
+      "Procesamiento manual",
+      "Procesamiento analógico"
+    ],
+    "answer": "Procesamiento local",
+    "explanation": "Edge computing prioriza el procesamiento local para reducir latencia, mejorar privacidad y ahorrar costos de transferencia a la nube."
+  },
+  {
+    "question": "¿Qué ventaja ofrece el Edge computing cuando hay ancho de banda limitado?",
+    "options": [
+      "Mejor visualización de datos",
+      "Reducción de la cantidad de datos enviados a la nube",
+      "Aumento de almacenamiento en la nube",
+      "Mayor número de dispositivos conectados"
+    ],
+    "answer": "Reducción de la cantidad de datos enviados a la nube",
+    "explanation": "El Edge computing procesa los datos localmente, lo cual reduce la necesidad de enviar grandes volúmenes de datos a través de redes con ancho de banda limitado."
+  },
+  {
+    "question": "¿Cuál NO es una plataforma en la nube para IoT?",
+    "options": [
+      "Microsoft Azure IoT Hub",
+      "Siemens MindSphere",
+      "IBM Cloud",
+      "Photoshop Cloud"
+    ],
+    "answer": "Photoshop Cloud",
+    "explanation": "Photoshop Cloud no está orientado al Internet de las Cosas, mientras que las otras opciones sí son plataformas IoT reconocidas."
+  },
+  {
+    "question": "¿Qué tecnología permite baja potencia y comunicaciones inalámbricas en sensores IoT?",
+    "options": [
+      "Celdas solares",
+      "Wi-Fi doméstico",
+      "Circuitos integrados de baja potencia",
+      "Bluetooth clásico"
+    ],
+    "answer": "Circuitos integrados de baja potencia",
+    "explanation": "Los circuitos integrados de baja potencia son clave para sensores IoT eficientes energéticamente."
+  },
+  {
+    "question": "¿Qué modelo de servicios en la nube permite acceso directo a infraestructura virtual?",
+    "options": ["SaaS", "PaaS", "IaaS", "DaaS"],
+    "answer": "IaaS",
+    "explanation": "Infraestructura como Servicio (IaaS) da acceso a recursos informáticos virtuales como servidores y almacenamiento."
+  },
+  {
+    "question": "¿Qué desafío representa el uso de WSN en IoT?",
+    "options": [
+      "Altos costos de hardware",
+      "Limitada capacidad de procesamiento y almacenamiento",
+      "Falta de conectividad Wi-Fi",
+      "Demasiado peso físico"
+    ],
+    "answer": "Limitada capacidad de procesamiento y almacenamiento",
+    "explanation": "Los sensores tienen recursos limitados, lo que plantea retos para el intercambio y procesamiento de datos."
+  },
+  {
+    "question": "¿Cuál NO es una ventaja del Edge computing?",
+    "options": [
+      "Respuestas más rápidas",
+      "Menor dependencia de la nube",
+      "Mayor escalabilidad",
+      "Mayor consumo de ancho de banda"
+    ],
+    "answer": "Mayor consumo de ancho de banda",
+    "explanation": "El Edge computing reduce el uso del ancho de banda al procesar datos localmente."
+  },
+  {
+    "question": "¿Qué protocolo requiere conexión permanente?",
+    "options": ["HTTP", "FTP", "MQTT", "SMTP"],
+    "answer": "MQTT",
+    "explanation": "MQTT mantiene una conexión activa para recibir mensajes en tiempo real, a diferencia de HTTP que opera por solicitud-respuesta."
+  },
+  {
+    "question": "¿Qué tecnología permite enviar datos binarios en MQTT?",
+    "options": [
+      "TCP Full dúplex",
+      "UDP Simplex",
+      "HTTP Half duplex",
+      "FTP Full duplex"
+    ],
+    "answer": "TCP Full dúplex",
+    "explanation": "MQTT funciona sobre TCP Full dúplex, lo que permite enviar datos binarios de forma continua y bidireccional."
+  },
+  {
+    "question": "¿Cuál es un ejemplo de aplicación IoT a escala nacional?",
+    "options": [
+      "Un dispositivo doméstico inteligente",
+      "Un sistema de monitoreo médico",
+      "Una red eléctrica inteligente",
+      "Una aplicación móvil de fitness"
+    ],
+    "answer": "Una red eléctrica inteligente",
+    "explanation": "Las redes eléctricas inteligentes son ejemplos de IoT a gran escala, como parte de infraestructuras nacionales."
+  },
+  {
+    "question": "¿Qué tipo de sensores pueden usarse en salud?",
+    "options": [
+      "Sensores ambientales",
+      "Sensores corporales",
+      "Sensores industriales",
+      "Sensores militares"
+    ],
+    "answer": "Sensores corporales",
+    "explanation": "Los sensores corporales se usan en aplicaciones médicas y de salud para monitorear signos vitales."
+  },
+  {
+    "question": "¿Qué permite la computación en la nube para IoT?",
+    "options": [
+      "Mayor latencia",
+      "Acceso a recursos ilimitados",
+      "Dispositivos más pesados",
+      "Conexiones manuales"
+    ],
+    "answer": "Acceso a recursos ilimitados",
+    "explanation": "La nube brinda almacenamiento, procesamiento y software a demanda, superando limitaciones locales de los dispositivos IoT."
+  },
+  {
+    "question": "¿Cuál es una ventaja de usar Node-RED en IoT?",
+    "options": [
+      "Permite diseño gráfico de flujos de datos",
+      "Facilita la programación visual de sistemas IoT",
+      "Es ideal para juegos 3D",
+      "Ofrece edición de video avanzada"
+    ],
+    "answer": "Facilita la programación visual de sistemas IoT",
+    "explanation": "Node-RED es una herramienta visual que simplifica la creación de flujos lógicos en aplicaciones IoT."
+  },
+  {
+    "question": "¿Qué tipo de certificaciones puede requerir un Gateway IoT?",
+    "options": ["ISO 9001", "CE/FCC", "PCI DSS", "HIPAA"],
+    "answer": "CE/FCC",
+    "explanation": "Dependiendo del país y sector, los Gateways pueden requerir certificaciones como CE (Europa) o FCC (Estados Unidos)."
+  },
+  {
+    "question": "¿Cuál NO es un tipo de red PAN inalámbrica?",
+    "options": ["Bluetooth", "ZigBee", "6LowPAN", "Ethernet"],
+    "answer": "Ethernet",
+    "explanation": "Ethernet es una red LAN cableada, no una red PAN inalámbrica como Bluetooth o ZigBee."
+  },
+  {
+    "question": "¿Qué permite hacer el preprocesamiento de datos en IoT?",
+    "options": [
+      "Guardar todos los datos sin filtro",
+      "Eliminar ruido y filtrar información relevante",
+      "Crear nuevas redes sociales",
+      "Generar energía eléctrica"
+    ],
+    "answer": "Eliminar ruido y filtrar información relevante",
+    "explanation": "El preprocesamiento ayuda a limpiar y preparar los datos antes de enviarlos a la nube para análisis más eficiente."
+  },
+  {
+    "question": "¿Cuál es una ventaja del uso de IoT en empresas?",
+    "options": [
+      "Menor automatización",
+      "Reducción de costos operativos",
+      "Mayor intervención humana",
+      "Menores niveles de conectividad"
+    ],
+    "answer": "Reducción de costos operativos",
+    "explanation": "IoT mejora la eficiencia operativa, reduciendo costos mediante la automatización y optimización de procesos."
+  },
+  {
+    "question": "¿Qué tecnología permite alta escalabilidad en redes IoT?",
+    "options": [
+      "Redes centralizadas únicas",
+      "Redes híbridas públicas y privadas",
+      "Redes solo locales",
+      "Redes analógicas"
+    ],
+    "answer": "Redes híbridas públicas y privadas",
+    "explanation": "Las redes híbridas permiten combinar beneficios de ambas infraestructuras, mejorando escalabilidad y flexibilidad en IoT."
+  }
+]

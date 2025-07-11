@@ -5,6 +5,7 @@ export const QUIZ_PATHS = {
     tema6: "/Astaroth/content/tests/questions/automatizacion/tema6.json",
     tema7: "/Astaroth/content/tests/questions/automatizacion/tema7.json",
     tema8: "/Astaroth/content/tests/questions/automatizacion/tema8.json",
+    tema9: "/Astaroth/content/tests/questions/automatizacion/tema9.json",
   },
   control: {
     clase8: "/Astaroth/content/tests/questions/control/clase8.json",
