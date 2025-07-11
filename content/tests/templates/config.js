@@ -2,6 +2,7 @@
 // config.js
 export const QUIZ_PATHS = {
   automatizacion: {
+    tema5: "/Astaroth/content/tests/questions/automatizacion/tema5.json",
     tema6: "/Astaroth/content/tests/questions/automatizacion/tema6.json",
     tema7: "/Astaroth/content/tests/questions/automatizacion/tema7.json",
     tema8: "/Astaroth/content/tests/questions/automatizacion/tema8.json",
