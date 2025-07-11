@@ -1,0 +1,308 @@
+[
+  {
+    "question": "¿Qué es un Teach Pendant en robótica?",
+    "options": [
+      "Un dispositivo de alimentación eléctrica",
+      "Una terminal de mano para programar y controlar el robot",
+      "Un sensor de movimiento del robot",
+      "Un software de simulación"
+    ],
+    "answer": "Una terminal de mano para programar y controlar el robot",
+    "explanation": "El Teach Pendant es un dispositivo opcional usado para controlar el robot y sus periféricos, útil para grabar posiciones, mover ejes y ejecutar programas."
+  },
+  {
+    "question": "¿Cuál es la función del planificador de trayectorias en un robot?",
+    "options": [
+      "Controlar los sensores externos",
+      "Calcular las trayectorias que debe seguir el robot",
+      "Administrar entradas y salidas digitales",
+      "Gestionar la comunicación RS232"
+    ],
+    "answer": "Calcular las trayectorias que debe seguir el robot",
+    "explanation": "El planificador de trayectorias se encarga de interpolar y muestrear puntos para generar movimientos suaves y precisos del robot."
+  },
+  {
+    "question": "¿Qué tipo de controladores se mencionan en el documento?",
+    "options": [
+      "Solo controladores analógicos",
+      "Controladores Stand Alone y multitarea",
+      "Solo controladores lógicos programables",
+      "Solo controladores neumáticos"
+    ],
+    "answer": "Controladores Stand Alone y multitarea",
+    "explanation": "Los controladores pueden funcionar como sistemas independientes (Stand Alone) y también son multitarea, permitiendo la ejecución simultánea de múltiples procesos."
+  },
+  {
+    "question": "¿Cuántos ejes puede controlar como máximo el sistema descrito?",
+    "options": ["6 ejes", "10 ejes", "12 ejes", "8 ejes"],
+    "answer": "12 ejes",
+    "explanation": "Según las especificaciones técnicas, el controlador puede manejar hasta 12 ejes servo, divididos en tres grupos con control independiente."
+  },
+  {
+    "question": "¿Qué significa ACL en el contexto del documento?",
+    "options": [
+      "Algoritmo de Control Lineal",
+      "Lenguaje de Control Avanzado",
+      "Automatización de Comunicación Local",
+      "Análisis Cinemático Lógico"
+    ],
+    "answer": "Lenguaje de Control Avanzado",
+    "explanation": "ACL es un lenguaje avanzado de programación de robots que permite el control directo de los ejes, programación del sistema, control de E/S y soporte multi-tasking."
+  },
+  {
+    "question": "¿Qué función cumple el ATS en la programación de robots?",
+    "options": [
+      "Es una tarjeta de control físico",
+      "Es un emulador de terminal para acceder al lenguaje ACL desde una PC",
+      "Es un protocolo de comunicación inalámbrica",
+      "Es un sistema operativo exclusivo del robot"
+    ],
+    "answer": "Es un emulador de terminal para acceder al lenguaje ACL desde una PC",
+    "explanation": "ATS (Advanced Terminal Software) permite configurar el controlador, definir periféricos, editar programas y usar atajos de teclado para interactuar con el robot."
+  },
+  {
+    "question": "¿Cómo se llama el modelo de robot descrito como 'vertical articulado' con cinco juntas rotativas?",
+    "options": ["SCORBOT ER-V+", "SCORBOT ER IX", "SCARA", "CARTESIANO"],
+    "answer": "SCORBOT ER-V+",
+    "explanation": "El SCORBOT ER-V+ es un robot vertical articulado con cinco juntas rotativas y una mordaza adicional, lo que le otorga seis grados de libertad."
+  },
+  {
+    "question": "¿Qué tipo de coordenadas se utilizan comúnmente en la programación de robots según el documento?",
+    "options": [
+      "Coordenadas polares",
+      "Coordenadas cartesianas y joint",
+      "Coordenadas cilíndricas",
+      "Coordenadas esféricas"
+    ],
+    "answer": "Coordenadas cartesianas y joint",
+    "explanation": "Las coordenadas cartesianas definen la posición del robot en unidades lineales, mientras que las coordenadas joint se refieren a los ángulos o posiciones de los ejes individuales."
+  },
+  {
+    "question": "¿Qué significa TCP en robótica?",
+    "options": [
+      "Tensión de Corriente Periférica",
+      "Punto Central del Programa",
+      "Tool Center Point (Punto Central de la Herramienta)",
+      "Tiempo de Ciclo de Proceso"
+    ],
+    "answer": "Tool Center Point (Punto Central de la Herramienta)",
+    "explanation": "TCP (Tool Center Point) es el punto central de la herramienta montada en el robot, utilizado como referencia para el posicionamiento espacial."
+  },
+  {
+    "question": "¿Qué tecnología utiliza el SCORBOT-ER IX para retroalimentación de posición?",
+    "options": [
+      "Sensores ultrasónicos",
+      "Encoders ópticos",
+      "Sensores magnéticos",
+      "Potenciómetros analógicos"
+    ],
+    "answer": "Encoders ópticos",
+    "explanation": "El sistema de retroalimentación del SCORBOT-ER IX utiliza encoders ópticos para lograr alta repetibilidad y precisión en sus movimientos."
+  },
+  {
+    "question": "¿Cuál es la carga máxima que puede manejar el SCORBOT-ER IX?",
+    "options": ["5 kg", "3 kg", "2 kg", "1 kg"],
+    "answer": "2 kg",
+    "explanation": "El SCORBOT-ER IX está diseñado para manejar cargas máximas de hasta 2 kilogramos, lo que lo hace adecuado para aplicaciones ligeras y precisas."
+  },
+  {
+    "question": "¿Qué tipo de motores utiliza el SCORBOT-ER IX?",
+    "options": [
+      "Motores paso a paso",
+      "Servomotores DC",
+      "Motores AC síncronos",
+      "Motores lineales"
+    ],
+    "answer": "Servomotores DC",
+    "explanation": "El SCORBOT-ER IX utiliza servomotores DC, lo que permite un control preciso de la posición y velocidad de cada eje."
+  },
+  {
+    "question": "¿Qué es la programación por guiado o aprendizaje en robótica?",
+    "options": [
+      "Programar el robot mediante comandos de texto",
+      "Mover físicamente el robot y registrar puntos y movimientos",
+      "Simular el robot en un entorno virtual",
+      "Programar el robot usando interfaces gráficas"
+    ],
+    "answer": "Mover físicamente el robot y registrar puntos y movimientos",
+    "explanation": "La programación por guiado implica mover manualmente el robot a diferentes posiciones y grabarlas para luego reproducirlas en un programa automatizado."
+  },
+  {
+    "question": "¿Cuál es una ventaja de la programación textual sobre la programación guiada?",
+    "options": [
+      "Mayor facilidad para principiantes",
+      "Uso de estructuras de control como bucles y condiciones",
+      "Menor tiempo de entrenamiento",
+      "Requiere menos hardware especializado"
+    ],
+    "answer": "Uso de estructuras de control como bucles y condiciones",
+    "explanation": "La programación textual permite utilizar estructuras avanzadas similares a las de los lenguajes de programación tradicionales, lo que ofrece mayor flexibilidad y control."
+  },
+  {
+    "question": "¿Qué comando se usa en ACL para ejecutar un programa?",
+    "options": ["EXECUTE", "START", "RUN", "PLAY"],
+    "answer": "RUN",
+    "explanation": "En ACL, el comando RUN se utiliza para iniciar la ejecución de un programa, por ejemplo: > run prog1."
+  },
+  {
+    "question": "¿Qué hace el comando SUSPEND en un programa de robot?",
+    "options": [
+      "Detiene permanentemente el programa",
+      "Suspende temporalmente la ejecución del programa después de completar el movimiento actual",
+      "Reinicia el programa desde el inicio",
+      "Elimina el programa de memoria"
+    ],
+    "answer": "Suspende temporalmente la ejecución del programa después de completar el movimiento actual",
+    "explanation": "El comando SUSPEND detiene la ejecución del programa, pero permite que termine el movimiento actual antes de pausarse."
+  },
+  {
+    "question": "¿Qué significa PRIORITY en el contexto de programación multitarea en robots?",
+    "options": [
+      "Define la cantidad de memoria asignada a un programa",
+      "Determina el orden de ejecución entre tareas concurrentes",
+      "Establece el tiempo de ejecución máximo de un programa",
+      "Configura la velocidad de los motores del robot"
+    ],
+    "answer": "Determina el orden de ejecución entre tareas concurrentes",
+    "explanation": "La prioridad establece qué tarea se ejecuta primero cuando hay varias programas corriendo simultáneamente; las prioridades van de 1 a 10."
+  },
+  {
+    "question": "¿Qué hace el comando TRIGGER en ACL?",
+    "options": [
+      "Inicia otro programa cuando una entrada o salida cambia de estado",
+      "Detiene todos los programas activos",
+      "Ajusta la velocidad del robot",
+      "Reinicia el controlador"
+    ],
+    "answer": "Inicia otro programa cuando una entrada o salida cambia de estado",
+    "explanation": "TRIGGER permite sincronizar programas con eventos de entrada/salida, como activar un programa cuando se detecta una señal en un sensor."
+  },
+  {
+    "question": "¿Para qué sirve el comando STOP en ACL?",
+    "options": [
+      "Detener inmediatamente todos los movimientos del robot",
+      "Abortar un programa después de terminar los movimientos pendientes",
+      "Reiniciar el sistema operativo del robot",
+      "Guardar un programa en memoria"
+    ],
+    "answer": "Abortar un programa después de terminar los movimientos pendientes",
+    "explanation": "El comando STOP elimina la ejecución de un programa solo después de que finalicen todos los movimientos previamente enviados al controlador."
+  },
+  {
+    "question": "¿Qué es una variable compartida en programación multitarea de robots?",
+    "options": [
+      "Una variable accesible solo por un proceso",
+      "Una variable usada para almacenar datos temporales",
+      "Una variable que puede ser modificada por múltiples procesos simultáneamente",
+      "Una constante global fija"
+    ],
+    "answer": "Una variable que puede ser modificada por múltiples procesos simultáneamente",
+    "explanation": "Las variables compartidas permiten la coordinación entre distintos procesos en sistemas multitarea, facilitando la sincronización y el control."
+  },
+  {
+    "question": "¿Qué comandos se usan para sincronizar procesos mediante variables compartidas en ACL?",
+    "options": [
+      "WAIT y SIGNAL",
+      "PEND y POST",
+      "LOCK y UNLOCK",
+      "START y STOP"
+    ],
+    "answer": "PEND y POST",
+    "explanation": "PEND y POST son comandos usados para suspender y reanudar procesos basándose en el valor de una variable compartida, asegurando la sincronización entre tareas."
+  },
+  {
+    "question": "¿Qué tipo de modos de trabajo tiene ACL?",
+    "options": [
+      "Modo automático y modo manual",
+      "Modo texto y modo gráfico",
+      "Modo edición y modo ejecución",
+      "Modo local y modo remoto"
+    ],
+    "answer": "Modo edición y modo ejecución",
+    "explanation": "ACL permite trabajar en dos modos principales: Edit (edición de programas) y Direct (ejecución de comandos directos)."
+  },
+  {
+    "question": "¿Qué es un buffer de movimiento en robótica?",
+    "options": [
+      "Un lugar de almacenamiento temporal de instrucciones de movimiento",
+      "Un sensor de seguridad del robot",
+      "Un componente mecánico del brazo",
+      "Un dispositivo de alimentación eléctrica"
+    ],
+    "answer": "Un lugar de almacenamiento temporal de instrucciones de movimiento",
+    "explanation": "El buffer de movimiento almacena temporalmente los comandos de movimiento antes de que sean ejecutados por el robot."
+  },
+  {
+    "question": "¿Qué tipo de transmisión usan las articulaciones del SCORBOT-ER IX?",
+    "options": [
+      "Transmisión por cadena",
+      "Transmisión armónica",
+      "Transmisión por engranaje recto",
+      "Transmisión por correa"
+    ],
+    "answer": "Transmisión armónica",
+    "explanation": "El SCORBOT-ER IX utiliza transmisión armónica en sus articulaciones, lo que permite alta precisión y eficiencia en el movimiento."
+  },
+  {
+    "question": "¿Qué representa el término 'grados de libertad' en robótica?",
+    "options": [
+      "Número de motores del robot",
+      "Número de movimientos independientes que puede realizar",
+      "Velocidad máxima del robot",
+      "Capacidad de carga del robot"
+    ],
+    "answer": "Número de movimientos independientes que puede realizar",
+    "explanation": "Los grados de libertad indican cuántos movimientos independientes puede realizar un robot, generalmente relacionados con sus ejes articulados."
+  },
+  {
+    "question": "¿Cuántos canales RS232 tiene el controlador SCORBOT-ER IX de forma predeterminada?",
+    "options": ["1 canal", "2 canales", "4 canales", "10 canales"],
+    "answer": "2 canales",
+    "explanation": "El controlador SCORBOT-ER IX viene con dos canales RS232 estándar, ampliables hasta 10 canales si es necesario."
+  },
+  {
+    "question": "¿Qué CPU utiliza el controlador SCORBOT-ER IX?",
+    "options": [
+      "Intel Core i7",
+      "Motorola 68020",
+      "ARM Cortex-M4",
+      "Atmel AVR"
+    ],
+    "answer": "Motorola 68020",
+    "explanation": "El controlador utiliza una CPU Motorola 68020, conocida por su capacidad en sistemas embebidos y control industrial."
+  },
+  {
+    "question": "¿Qué co-procesador matemático se menciona en el documento?",
+    "options": ["Motorola MC68881", "Intel 8087", "ARM NEON", "FPGA Spartan"],
+    "answer": "Motorola MC68881",
+    "explanation": "El co-procesador matemático Motorola MC68881 mejora el rendimiento en cálculos complejos, permitiendo desplazamientos más rápidos del robot."
+  },
+  {
+    "question": "¿Cuánta memoria RAM CMOS tiene el controlador?",
+    "options": ["128 KB", "256 KB", "512 KB", "1 MB"],
+    "answer": "512 KB",
+    "explanation": "El controlador dispone de 512 KB de memoria RAM CMOS, expandible hasta 2 MB, de los cuales aproximadamente 350 KB están disponibles para el usuario."
+  },
+  {
+    "question": "¿Qué tipo de modos de trayectoria admite el controlador?",
+    "options": [
+      "Solo línea recta",
+      "Solo círculo",
+      "Trayectoria continua, lineal, circular y spline",
+      "Solo movimiento parabólico"
+    ],
+    "answer": "Trayectoria continua, lineal, circular y spline",
+    "explanation": "El controlador permite diferentes tipos de trayectorias, incluyendo movimiento continuo, lineal, circular y spline para una gran variedad de aplicaciones."
+  },
+  {
+    "question": "¿Cuál es el propósito del botón de parada de emergencia en el controlador?",
+    "options": [
+      "Reiniciar el sistema",
+      "Desactivar los motores del brazo robótico instantáneamente",
+      "Guardar automáticamente el programa",
+      "Cambiar entre modos de operación"
+    ],
+    "answer": "Desactivar los motores del brazo robótico instantáneamente",
+    "explanation": "El botón de parada de emergencia desactiva los motores del robot inmediatamente para garantizar la seguridad durante situaciones críticas."
+  }
+]
